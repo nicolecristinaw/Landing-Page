@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0 ;
+    
+}
+
+header {
+    background-color: #FFB6C1; 
+}
+
+   
+
+#content {
+    background-color: #FFB6C1;
+}
+
+.img-planta { 
+    width: 525px;
+    height: 514px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    
+    
+}
+
+.title { 
+    display: flex;
+    align-items: baseline;
+    font-family: 'Playfair Display', sans-serif;
+    font-size:90px;
+    line-height: 170px;
+    height: 387px;
+    width: 713px;
+    color: #FFFAFA;
+    padding: 4%;
+    
+  
+}  
+
+
+
+#botoes {
+    display: flex;
+    justify-content: left;
+    gap: 90px;
+    margin-top: 300px;
+    padding-left: 180px;
+    padding-top: 3px;
+    padding-bottom:80px
+    
+    
+}
+
+.botao-1 {
+    font-family: 'DM Sans', sans-serif;
+    height: 56px;
+    width: 185px;
+    font-size: 20px;
+    padding: 10px ;
+    border-radius: 15px;
+    background-color: #FF69B4;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.botao-2 {
+    font-family: 'DM Sans', sans-serif;
+    height: 56px;
+    width: 185px;
+    font-size: 20px;
+    padding: 10px ;
+    border-radius: 15px;
+    border-color: #FF69B4;
+    background-color:#FFB6C1 ;
+    color: white;
+    cursor: pointer;
+    border: 5px solid #FF69B4;
+
+}
+#home-2 {
+    position: relative;
+    text-align: center;
+    padding: 40px 20px; 
+}
+
+.home-2-texto{
+    display: flex;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 48px;
+    line-height: 148.8%;
+    height:284px;
+    width: 1428px;
+    color: #3A2D32;
+    margin: 0 auto;
+    padding: 90px;
+   
+}
+
+.img-bolinha {
+    position: relative;
+    display: block;
+    margin-bottom: 3px;
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+    margin: 20px 0 0 1600px;
+}
+
+
+.img-bolinha-2{
+    position: relative;
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 70px;
+    height: 70px;
+    margin-top: 90px;
+    margin-left: 14%;
+}
+
+.flor{
+    position: relative;
+    height: 265px;
+    width: 314px;
+    left: 1700px;
+    margin-top:200px;
+}
+
+.mulher-1{
+    position: relative;
+    height: 579px;
+    width: 478px;
+    right: 200px;
+    margin-top: 80px;
+}
+
+.mulher-2{
+    position: relative;
+    padding-top: 100px;
+    height: 467px;
+    width: 620px;
+    right: 82px;
+   
+}
+#cta {
+    display: flex;
+}
+
+#mulheres {
+    display:flex;
+    justify-content: flex-start;
+    gap: 1px;
+    margin-left: 0%;
+}
+
+.texto-mulheres{
+    font-family: 'Playfair Display', sans-serif;
+    position: relative;
+    margin-top:20px;
+    right: 10px;
+    font-size: 52px;
+    line-height: auto;
+    height:138px;
+    width: 475px;
+    color: #3A2D32;
+    
+}
+
+.num1{
+    font-family: 'Playfair Display', sans-serif;
+    position:relative;
+    font-size: 48px;
+    line-height: 160%;
+    height:77px;
+    width: 49px;
+    color: #FFB6C1;
+    font-weight: 600;
+    padding-top: 30px
+}
+
+.mulheres-p1{
+    font-family: 'DM Sans', sans-serif;
+    position:relative;
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 160%;
+    height:29px;
+    width: 615px;
+    color: #565656;
+}
+
+.texto-mulheres2{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 52px;
+    line-height: auto;
+    height:138px;
+    width: 475px;
+    color: #3A2D32;
+    
+}
+
+.num2{
+    position: relative;
+    font-family: 'Playfair Display', sans-serif;
+    right: 200px;
+    margin-top: 20px;
+    font-size: 48px;
+    line-height: 160%;
+    height:77px;
+    width: 49px;
+    color: #FFB6C1;
+    font-weight: 600;
+}
+
+.mulheres-p2{
+    position:relative;
+    right: 200px;
+    padding-top: 10px;
+    font-family:'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 160%;
+    height:29px;
+    width: 615px;
+    color: #565656;
+    
+}
+
+#frase{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    background-color:#FFB6C1;
+    padding:50px 0;
+
+}
+
+.frase1{
+    font-family: 'Playfair Display', sans-serif;
+    display:flex;
+    align-items:center;
+    font-size: 40px;
+    line-height: 160%;
+    height:64px;
+    width: 1247px;
+    color: #000000;
+ 
+    
+}
+
+.autor{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 24px;
+    line-height: 160%;
+    height:38px;
+    width: 135px;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.consultant-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 52px;
+    line-height: 140%;
+    height:138px;
+    width: 700px;
+    color: #3A2D32;
+    font-weight: 500;
+    padding-left: 4%;
+}
+
+.consultant-texto{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 18px;
+    line-height: 200%;
+    height:105px;
+    width: 412px;
+    color: #565656;
+    padding-left: 4%;
+    padding-top: 70px;
+}
+
+.consultant-botao {
+    font-family: 'DM Sans', sans-serif;
+    height: 56px;
+    width: 185px;
+    font-size: 20px;
+    padding: 10px ;
+    border-radius: 15px;
+    background-color: #FFB6C1;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 4%;
+    margin-top: 160px;
+    
+
+}
+
+#consultant {
+    margin-top: 120px;
+    
+}
+
+#imgs{
+    display: flex;
+    gap: 90px;
+    margin-top: -390px;
+    margin-left: 800px;
+
+}
+
+.img-consultant2 {
+    margin-bottom: 280px;
+}
+
+.img-consultant-flor{
+    position: relative;
+    top: -180px;
+}
+
+.product-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 52px;
+    line-height: 100%;
+    height:69px;
+    width: 400px;
+    color: #3A2D32;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 800px;
+    margin-bottom: 60px;
+}
+
+#skincare-imgs{
+    display: flex;
+    gap: 170px;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.avaliacoes-title{
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 52px;
+    line-height: 100%;
+    height:80px;
+    width: 690px;
+    color: #3A2D32;
+    font-weight: 500;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+
+.imgs1{
+    display: flex;
+    margin-top: 190px;
+    margin-left: 100px;
+}
+
+.imgs2{
+    padding-top: 15px;
+}
+
+.scroll-avaliacao{
+    padding-left: 90px;
+}
+
+.setas-avaliacao{
+    padding-left: 1550px;
+    cursor:pointer;
+}
+
+
+#footer-content{
+    background-color: #FFB6C1;
+    margin-top: 100px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-logo{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.footer-contato{
+    color:#FFFFFF;
+    padding-left:90px;
+    padding-top:100px;
+    font-size: 20px;
+    display:flex;
+    row-gap: 50px;
+    flex-direction: column;
+}
+
+.footer-cabecalho{
+    color:#FFFFFF;
+    font-size: 20px;
+    display: flex;
+    gap:160px;
+    padding-left:900px;
+    margin-bottom:300px;
+    margin-top: -300px;
+    
+}
+
+.footer-menu{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    cursor: pointer;
+}
+
+.footer-product{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    cursor: pointer;
+}
+
+.footer-service{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    cursor: pointer;
+}
+
+.footer-support{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    cursor: pointer;
+}
+
+.copyright{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: right;
+    padding-bottom:80px;
+}
+
+.footer-privacy{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+
+@media screen and (max-width:1700px) {
+    .img-planta {
+        display: none;
+    }
+
+    .title {
+        font-size: 70px;
+        line-height: 180%;
+        height: auto;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #botoes {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        padding-left: 0;
+        padding-bottom: 200px;
+        padding-top: 30px;
+        gap: 50px;
+    }
+
+    .home-2-texto{
+        font-size: 36px;
+        line-height: 140%;
+        height: auto;
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .img-bolinha {
+        display: none;
+    }
+
+    .img-bolinha-2{
+        display: none;
+    }
+
+   
+    #mulheres { 
+        display: flex;
+        flex-direction: column;    
+    }
+
+    #cta2{
+        display:flex;
+        flex-direction: column;
+        order: -1;
+        align-items: center;        
+    }
+
+    .cta{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top:-400px;
+    }
+
+    
+    .cta-texto{
+        order:0;
+        margin-left:400px;
+        ;
+    }
+
+    .mulher-1{
+        order: 1;
+        margin-left: 400px;
+    }
+
+    .num2{
+        padding-left: 280px;
+    }
+
+    .mulher-2{
+        margin-left: 140px;
+    }
+
+    .texto-mulheres{
+        margin-top:60px;
+    }
+
+    .img-consultant2{
+        display:none;
+    }
+
+    .img-consultant-flor{
+        padding-top:70px;
+    }
+    .img-consultant1{
+        position: relative;
+        height: 400px;
+        margin-top:200px;
+        left:-300px;
+    }
+
+    #product{
+        margin-top:-100px;
+    }
+    
+    .product-title{
+        padding-left: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+
+    .pincel-avaliacao{
+        display: none;
+    }
+    
+    .img-avaliacao{
+        width:900px;
+    }
+
+    .setas-avaliacao{
+        padding-left: 900px;
+        height: 40px;
+        margin-top:-30px;
+    }
+    .scroll-avaliacao{
+        height: 9px;
+        margin-top:30px;
+    }
+
+    
+}
