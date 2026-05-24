@@ -19,6 +19,12 @@
         <mxCell id="7baba1c4bc27f4b0-13" parent="7baba1c4bc27f4b0-3" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
           <mxGeometry height="200" width="10" x="45" y="320" as="geometry" />
         </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-10" edge="1" parent="7baba1c4bc27f4b0-3" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="7baba1c4bc27f4b0-3" value="ValidarDadosFonte&lt;div&gt;(dadosFonte)&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-105" y="240.41000000000003" as="sourcePoint" />
+            <mxPoint x="54.50000000000023" y="239.9982352941177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7baba1c4bc27f4b0-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value=":Repositório" vertex="1">
           <mxGeometry height="580" width="100" x="580" y="80" as="geometry" />
         </mxCell>
@@ -67,10 +73,56 @@
             <mxPoint x="280" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4f_trNXtgovNzQgt51cf-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="7baba1c4bc27f4b0-3" value="ValidarDadosFonte&lt;div&gt;(dadosFonte)&lt;/div&gt;">
+        <mxCell id="4f_trNXtgovNzQgt51cf-13" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" value="alt" vertex="1">
+          <mxGeometry height="340" width="700" x="30" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-14" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="25" y="480" as="sourcePoint" />
+            <mxPoint x="735" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[dados válidos]" vertex="1">
+          <mxGeometry height="30" width="90" x="30" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[dados inválidos]" vertex="1">
+          <mxGeometry height="30" width="90" x="20" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" value="ExibirMensagem&lt;div&gt;Sucesso()&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="290" as="sourcePoint" />
-            <mxPoint x="430" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="432.5" y="450" />
+            </Array>
+            <mxPoint x="457.5" y="450" as="sourcePoint" />
+            <mxPoint x="302.5" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" value="ExibirMensagemErro()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="432.5" y="560" />
+            </Array>
+            <mxPoint x="457.5" y="560" as="sourcePoint" />
+            <mxPoint x="302.5" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" value="SalvarFonte&lt;br&gt;&lt;div&gt;(dadosFonte)&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0005" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="470" y="404.82176470588234" as="sourcePoint" />
+            <mxPoint x="629.5000000000002" y="404.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" value="FonteSalva()">
+          <mxGeometry relative="1" x="-0.1538" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="600" y="425" />
+            </Array>
+            <mxPoint x="625" y="425" as="sourcePoint" />
+            <mxPoint x="470" y="425" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
