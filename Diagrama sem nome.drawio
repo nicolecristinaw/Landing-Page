@@ -17,7 +17,7 @@
           <mxGeometry height="580" width="100" x="410" y="80" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-13" parent="7baba1c4bc27f4b0-3" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
-          <mxGeometry height="200" width="10" x="45" y="320" as="geometry" />
+          <mxGeometry height="200" width="10" x="45" y="210" as="geometry" />
         </mxCell>
         <mxCell id="4f_trNXtgovNzQgt51cf-10" edge="1" parent="7baba1c4bc27f4b0-3" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="7baba1c4bc27f4b0-3" value="ValidarDadosFonte&lt;div&gt;(dadosFonte)&lt;/div&gt;">
           <mxGeometry relative="1" as="geometry">
@@ -29,13 +29,16 @@
           <mxGeometry height="580" width="100" x="580" y="80" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-37" parent="7baba1c4bc27f4b0-4" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
-          <mxGeometry height="60" width="10" x="45" y="420" as="geometry" />
+          <mxGeometry height="60" width="10" x="45" y="315" as="geometry" />
         </mxCell>
-        <mxCell id="7baba1c4bc27f4b0-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value=":Administrador" vertex="1">
+        <mxCell id="7baba1c4bc27f4b0-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;size=0;" value="" vertex="1">
           <mxGeometry height="580" width="100" x="70" y="80" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-9" parent="7baba1c4bc27f4b0-8" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" value="" vertex="1">
           <mxGeometry height="440" width="10" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4f_trNXtgovNzQgt51cf-21" parent="7baba1c4bc27f4b0-8" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Administrador&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="35" y="-10" as="geometry" />
         </mxCell>
         <mxCell id="7baba1c4bc27f4b0-11" edge="1" parent="1" source="7baba1c4bc27f4b0-9" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="7baba1c4bc27f4b0-10" value="">
           <mxGeometry relative="1" x="-0.0014" as="geometry">
@@ -78,8 +81,8 @@
         </mxCell>
         <mxCell id="4f_trNXtgovNzQgt51cf-14" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="25" y="480" as="sourcePoint" />
-            <mxPoint x="735" y="480" as="targetPoint" />
+            <mxPoint x="25" y="470" as="sourcePoint" />
+            <mxPoint x="735" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4f_trNXtgovNzQgt51cf-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="[dados válidos]" vertex="1">
